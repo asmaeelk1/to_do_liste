@@ -1,0 +1,76 @@
+body{
+    background-image: url(fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.todo{
+    text-align: center;
+    background-color: white;
+    width: 65vw;
+    height:auto;
+    margin: auto;
+    border-radius: 3%;
+}
+h2{
+ font-weight: 700;
+ font-size: 50px;
+ padding-top: 15px;
+}
+.enterList{
+    width: 57%;
+    height: 37px;
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.check{
+    height: 26px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.aff{
+    width: 67%;
+    height:auto;
+    font-size: 27px;
+    color: black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 15px;
+}
+.check2{
+    height: 26px;
+    width: 26px;
+    background-color: aliceblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+p{
+    word-wrap: break-word;
+    width: 90%;
+}
+
